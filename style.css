@@ -1,4 +1,28 @@
 
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+}
+
+div.grupa {
+  background-color: #efebe8;
+  height: 90px;
+}
+
+:root {
+  font-family: "Roboto";
+}
+
+p.pytanko {
+  font-weight: 700;
+  color: #574e5a;
+}
+
+div#DivWynik {
+  background-color: #efebe8;
+  height: 300px;
+}
+
 div.pytanie {
   div.guzik {
     display: flex;
@@ -6,28 +30,37 @@ div.pytanie {
     gap: 10px;
   }
   button{
-    background-color: #7292AC;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #1C1C1C;
     width: 100%; 
     font-size: 1.5em;
+    font-weight: 400;
     padding: 10px;
     cursor: pointer;
+    border-radius: 0.5em;
   }
   p{
+    position:relative;
+    top: 12px;
     font-size: 1.5em;
     padding: 10px;
     text-align: center;
-    background-color: aliceblue;
-    border: 1px solid rgb(211, 204, 204);
+    background-color: #efebe8;
   }
   button.guzikRestart{
-    background-color: #7292AC;
+    background-color: #2590fd;
     width: 100%;
     font-size: 1.5em;
     padding: 10px;
     cursor: pointer;
   }
 }
-
+  p#Pwynik {
+    position:relative;
+    top: 2px;
+    color: #574e5a;
+  }
 
 @media(min-width:600px){
   div.pytanie{

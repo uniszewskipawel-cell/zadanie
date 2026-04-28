@@ -1,0 +1,70 @@
+
+div.pytanie {
+  div.guzik {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+  }
+  button{
+    background-color: #7292AC;
+    width: 100%; 
+    font-size: 1.5em;
+    padding: 10px;
+    cursor: pointer;
+  }
+  p{
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px solid rgb(211, 204, 204);
+  }
+  button.guzikRestart{
+    background-color: #7292AC;
+    width: 100%;
+    font-size: 1.5em;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+
+
+@media(min-width:600px){
+  div.pytanie{
+    div.guzik {
+      flex-direction: row; 
+      justify-content: space-between;
+    }
+    button{
+      width: 50%;
+      font-size: 2em;
+    }
+    p{
+      font-size: 2em;
+    }
+    button.guzikRestart {
+      width: 100%;
+      font-size: 2em;
+    }
+  }
+}
+
+
+@media(min-width:1024px){
+  div.pytanie {
+    button {
+      font-size: 2.5em;
+    }
+    p {
+      font-size: 2.5em;
+    }
+    button.guzikRestart {
+      font-size: 2.5em;
+    }
+  }
+}
+
+
+div#DivPytanie2 {display:none;}
+div#DivPytanie3 {display:none;}
+div#DivWynik {display:none;}

@@ -20,7 +20,23 @@ p.pytanko {
 
 div#DivWynik {
   background-color: #efebe8;
-  height: 300px;
+  min-height: 300px;
+  
+}
+
+label {
+  display: block;
+  
+}
+
+#wyslij {
+  width: 165px;
+}
+
+form#wyslannik {
+  margin: auto;
+  padding: 15px;
+  width: 200px;
 }
 
 div.pytanie {
@@ -96,6 +112,7 @@ div.pytanie {
     }
   }
 }
+
 
 
 div#DivPytanie2 {display:none;}

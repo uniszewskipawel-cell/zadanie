@@ -67,3 +67,16 @@ RESTART.addEventListener('click', function(e){
   PYTANIE1.style.display ='block'
   WYNIK.style.display = 'none'
 })
+
+const FORMULARZ = document.querySelector('#wyslannik')
+FORMULARZ.addEventListener('submit', async(e) => {
+  e.preventDefault()
+  const DATA = new FormData(FORMULARZ)
+  await fetch('https://formsubmit.co/ajax/uniszewskipawel@gmail.com', {
+    method:'POST',headers:{
+      'Accept': 'application/json' 
+    },body:DATA
+  })
+  alert('Formularz wysłany!')
+  FORMULARZ.reset()
+})

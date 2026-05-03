@@ -21,22 +21,31 @@ p.pytanko {
 div#DivWynik {
   background-color: #efebe8;
   min-height: 300px;
-  
 }
 
 label {
   display: block;
-  
+  color: #574e5a;
+  text-align: center;
 }
 
-#wyslij {
-  width: 165px;
+input#wyslij {
+  border-radius: 0.5em;
+  background-color: #2590fd;
+  color: #FFFFFF;
+  font-size: 20px;
+  width: 190px;
+}
+
+input.inputInformacji {
+  font-size: 15px;
 }
 
 form#wyslannik {
-  margin: auto;
-  padding: 15px;
-  width: 200px;
+  display: block;
+  text-align: center;
+  padding: 2em;
+  font-size: 20px;
 }
 
 div.pytanie {
@@ -98,7 +107,6 @@ div.pytanie {
   }
 }
 
-
 @media(min-width:1024px){
   div.pytanie {
     button {
@@ -112,8 +120,6 @@ div.pytanie {
     }
   }
 }
-
-
 
 div#DivPytanie2 {display:none;}
 div#DivPytanie3 {display:none;}

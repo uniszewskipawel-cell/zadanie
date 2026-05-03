@@ -35,6 +35,7 @@ input#wyslij {
   color: #FFFFFF;
   font-size: 20px;
   width: 190px;
+  text-transform: uppercase;
 }
 
 input.inputInformacji {
